@@ -11,6 +11,15 @@ import org.springframework.batch.repeat.RepeatStatus;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ *  Batch Status vs. Exit Status
+ *  BatchStatus는 Job 또는 Step 의 실행 결과를 Spring에서 기록할 때 사용하는 Enum이다.
+ *  BatchStatus로 사용 되는 값은 COMPLETED, STARTING, STARTED, STOPPING, STOPPED, FAILED, ABANDONED, UNKNOWN 있다.
+ *  대부분의 값들은 단어와 같은 뜻으로 해석하여 이해하면 됨.
+ *
+ *  ExitStatus는 Step의 실행 후 상태를 말함
+ *
+ */
 @Slf4j
 @Configuration
 @RequiredArgsConstructor
