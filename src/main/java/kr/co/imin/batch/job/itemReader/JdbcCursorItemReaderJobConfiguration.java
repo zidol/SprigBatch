@@ -1,6 +1,6 @@
-package kr.co.imin.batch.job;
+package kr.co.imin.batch.job.itemReader;
 
-import itemReader.entity.Pay;
+import kr.co.imin.batch.entity.Pay;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.batch.core.Job;

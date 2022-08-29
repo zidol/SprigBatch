@@ -1,4 +1,4 @@
-package itemReader.entity;
+package kr.co.imin.batch.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
